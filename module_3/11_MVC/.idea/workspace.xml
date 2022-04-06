@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="280c882a-48f2-4ed1-82be-1ec3b7d9b621" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10.JSP_JSTL/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/build/classes/java/main/config/CharsetFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/build/classes/java/main/controller/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/build/classes/java/main/model/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/build/classes/java/main/model/repositories/UserRepositories.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/build/classes/java/main/model/repositories/impl/BaseRepositories.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/build/classes/java/main/model/repositories/impl/UserRepositoriesImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/build/classes/java/main/model/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/build/classes/java/main/model/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/build/libs/JSTL_JSP-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/src/main/java/config/CharsetFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/src/main/java/controller/UserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/src/main/java/model/bean/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/src/main/java/model/repositories/UserRepositories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/src/main/java/model/repositories/impl/BaseRepositories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/src/main/java/model/repositories/impl/UserRepositoriesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/src/main/java/model/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/src/main/java/model/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/src/main/webapp/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/src/main/webapp/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.JSP_JSTL/JSTL_JSP/src/main/webapp/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoJSTL.rar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="27PDKG1mf7vCh0UIyRylLRMK2XR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="280c882a-48f2-4ed1-82be-1ec3b7d9b621" name="Default Changelist" comment="" />
+      <created>1649212762141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649212762141</updated>
+      <workItem from="1649212766790" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="162" key="FileChooserDialogImpl" timestamp="1649212781461">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="162" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1649212781461" />
+    <state x="209" y="18" key="new project wizard" timestamp="1649212802524">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="209" y="18" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1649212802524" />
+  </component>
+</project>
