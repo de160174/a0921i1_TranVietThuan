@@ -18,6 +18,7 @@ public class DictionaryController {
         dictionaryMap.put("goodbye", "tạm biệt");
         dictionaryMap.put("car", "xe hơi");
         dictionaryMap.put("fan", "máy quạt");
+        dictionaryMap.put("máy quạt", "fan");
         dictionaryMap.put("phone", "điện thoại");
     }
 
