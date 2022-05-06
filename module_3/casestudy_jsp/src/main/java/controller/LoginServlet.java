@@ -19,6 +19,7 @@ public class LoginServlet extends HttpServlet {
                 Cookie co_password = new Cookie("co_password",password);
                 co_username.setMaxAge(180); //2p
                 co_password.setMaxAge(180); //2p
+
                 response.addCookie(co_username);
                 response.addCookie(co_password);
             }

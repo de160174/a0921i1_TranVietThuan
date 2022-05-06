@@ -11,10 +11,9 @@
   <title>Title</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
   <link rel="stylesheet" href="/assert/bootstrap413/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/assert/datatables/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" href="/assert/css/base.css">
   <link rel="stylesheet" href="/assert/css/style.css">
-  <style>
+  <style
     body {
       display: flex;
       align-items: center;
@@ -36,7 +35,7 @@
       position: relative;
     }
     .container .title::before {
-      content: "";
+      content: aria-atomic="false";
       left: 0;
       bottom: 0;
       position: absolute;

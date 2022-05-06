@@ -1,123 +1,149 @@
-package model.repositories.impl;
+package model.repository.impl;
 
 import model.bean.BenhAn;
-import model.repositories.BenhAnRepositories;
-import model.repositories.DBConnection;
+import model.repository.BaseRepository;
+import model.repository.BenhAnRepository;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BenhAnRepositoriesImpl implements BenhAnRepositories {
-    public static final String SELECT_ALL_BENH_AN = "select * from benh_an inner join benh_nhan on benh_an.ma_benh_nhan = benh_nhan.ma_benh_nhan;";
-    public static final String UPDATE_BENH_AN = "update benh_an inner join benh_nhan on benh_an.ma_benh_nhan = benh_nhan.ma_benh_nhan\n" +
-            "set benh_nhan.ten_benh_nhan = ?,\n" +
-            "benh_an.ngay_nhap_vien = ?,\n" +
-            "benh_an.ngay_ra_vien = ?,\n" +
-            "benh_an.ly_do = ? \n" +
-            "where benh_nhan.ma_benh_nhan = ?;";
-    public static final String DELETE_BENH_AN = "delete from benh_an where benh_an.ma_benh_nhan = ?;";
-    public static final String DELETE_BENH_NHAN = "delete from benh_nhan where benh_nhan.ma_benh_nhan = ?;";
-    public static final String FIND_BY_ID = "select * from benh_an inner join benh_nhan on benh_an.ma_benh_nhan = benh_nhan.ma_benh_nhan where benh_an.ma_benh_nhan = ?;";
+public class BenhAnRepositoryImpl implements BenhAnRepository {
+    private static final String SELECT_ALL = "select * from benh_an inner join benh_nhan on benh_an.ma_benh_nhan = benh_nhan.ma_benh_nhan;";
+    private static final String INSERT_BA = "insert into benh_an (ma_benh_nhan, ngay_nhap_vien, ngay_ra_vien, ly_do) values(?, ?, ?, ?);";
+    private static final String DELETE_BA = "delete from benh_an where ma_benh_an = ?;";
+    private static final String FIND_BY_ID = "select * from benh_an inner join benh_nhan on benh_an.ma_benh_nhan = benh_nhan.ma_benh_nhan where ma_benh_an = ?;";
+    private static final String UPDATE_BA = "update benh_an set ma_benh_nhan = ?, ngay_nhap_vien = ?, ngay_ra_vien = ?, ly_do = ? where ma_benh_an = ?;";
+
     @Override
     public List<BenhAn> findAll() {
         List<BenhAn> benhAnList = new ArrayList<>();
-        Connection connection = DBConnection.getConnection();
-        if(connection!=null){
+        Connection connection = BaseRepository.getConnection();
+        if (connection != null) {
             try {
-                PreparedStatement preparedStatement = connection.prepareStatement(SELECT_ALL_BENH_AN);
+                PreparedStatement preparedStatement = connection.prepareStatement(SELECT_ALL);
                 ResultSet resultSet = preparedStatement.executeQuery();
-                while (resultSet.next()){
-                    String maBenhAn = resultSet.getString("ma_benh_an");
-                    String maBenhNhan = resultSet.getString("ma_benh_nhan");
-                    String tenBenhNhan = resultSet.getString("ten_benh_nhan");
-                    Date ngayNhapVien = resultSet.getDate("ngay_nhap_vien");
-                    Date ngayRaVien = resultSet.getDate("ngay_ra_vien");
-                    String lyDo = resultSet.getString("ly_do");
-
-                    BenhAn benhAn = new BenhAn(maBenhAn,maBenhNhan,tenBenhNhan,ngayNhapVien,ngayRaVien,lyDo);
-                    benhAnList.add(benhAn);
+                while (resultSet.next()) {
+                    int ma_benh_an = resultSet.getInt("ma_benh_an");
+                    int ma_benh_nhan = resultSet.getInt("ma_benh_nhan");
+                    String ten_benh_nhan = resultSet.getString("ten_benh_nhan");
+                    String ngay_nhap_vien = resultSet.getString("ngay_nhap_vien");
+                    String ngay_ra_vien = resultSet.getString("ngay_ra_vien");
+                    String ly_do = resultSet.getString("ly_do");
+                    benhAnList.add(new BenhAn(ma_benh_an, ma_benh_nhan, ten_benh_nhan, ngay_nhap_vien, ngay_ra_vien, ly_do));
                 }
             } catch (SQLException throwables) {
                 throwables.printStackTrace();
+            } finally {
+                try {
+                    connection.close();
+                } catch (SQLException throwables) {
+                    throwables.printStackTrace();
+                }
             }
         }
         return benhAnList;
     }
 
     @Override
-    public BenhAn findById(String id) {
-        BenhAn benhAn = null;
-        Connection connection = DBConnection.getConnection();
-        if(connection!=null){
+    public void save(BenhAn benhAn) {
+        Connection connection = BaseRepository.getConnection();
+        if (connection != null) {
             try {
-                PreparedStatement preparedStatement = connection.prepareStatement(FIND_BY_ID);
-                preparedStatement.setString(1,id);
-                ResultSet resultSet = preparedStatement.executeQuery();
-                while (resultSet.next()){
-                    String maBenhAn = resultSet.getString("ma_benh_an");
-                    String maBenhNhan = resultSet.getString("ma_benh_nhan");
-                    String tenBenhNhan = resultSet.getString("ten_benh_nhan");
-                    Date ngayNhapVien = resultSet.getDate("ngay_nhap_vien");
-                    Date ngayRaVien = resultSet.getDate("ngay_ra_vien");
-                    String lyDo = resultSet.getString("ly_do");
-
-                    benhAn = new BenhAn(maBenhAn,maBenhNhan,tenBenhNhan,ngayNhapVien,ngayRaVien,lyDo);
-                }
-
+                PreparedStatement preparedStatement = connection.prepareStatement(INSERT_BA);
+                preparedStatement.setInt(1, benhAn.getMa_benh_nhan());
+                preparedStatement.setString(2, benhAn.getNgay_nhap_vien());
+                preparedStatement.setString(3, benhAn.getNgay_ra_vien());
+                preparedStatement.setString(4, benhAn.getLy_do());
+                preparedStatement.executeUpdate();
             } catch (SQLException throwables) {
                 throwables.printStackTrace();
+            } finally {
+                try {
+                    connection.close();
+                } catch (SQLException throwables) {
+                    throwables.printStackTrace();
+                }
             }
         }
-        return benhAn;
+    }
+
+    @Override
+    public int delete(int ma_benh_an) {
+        Connection connection = BaseRepository.getConnection();
+        int row = 0;
+        if (connection != null) {
+            try {
+                PreparedStatement preparedStatement = connection.prepareStatement(DELETE_BA);
+                preparedStatement.setInt(1, ma_benh_an);
+                row = preparedStatement.executeUpdate();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            } finally {
+                try {
+                    connection.close();
+                } catch (SQLException throwables) {
+                    throwables.printStackTrace();
+                }
+            }
+        }
+        return row;
     }
 
     @Override
     public void update(BenhAn benhAn) {
-        Connection connection = DBConnection.getConnection();
-        if(connection!=null){
+        Connection connection = BaseRepository.getConnection();
+        if (connection != null) {
             try {
-                connection.setAutoCommit(false);
-                PreparedStatement preparedStatement = connection.prepareStatement(UPDATE_BENH_AN);
-                preparedStatement.setString(1,benhAn.getTenBenhNhan());
-                preparedStatement.setDate(2,benhAn.getNgayNhapVien());
-                preparedStatement.setDate(3,benhAn.getNgayRaVien());
-                preparedStatement.setString(4,benhAn.getLyDo());
-                preparedStatement.setString(5,benhAn.getMaBenhNhan());
+                PreparedStatement preparedStatement = connection.prepareStatement(UPDATE_BA);
+                preparedStatement.setInt(1, benhAn.getMa_benh_nhan());
+                preparedStatement.setString(2, benhAn.getNgay_nhap_vien());
+                preparedStatement.setString(3, benhAn.getNgay_ra_vien());
+                preparedStatement.setString(4, benhAn.getLy_do());
+                preparedStatement.setInt(5, benhAn.getMa_benh_an());
                 preparedStatement.executeUpdate();
-                connection.commit();
             } catch (SQLException throwables) {
-                try {
-                    connection.rollback();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
                 throwables.printStackTrace();
+            } finally {
+                try {
+                    connection.close();
+                } catch (SQLException throwables) {
+                    throwables.printStackTrace();
+                }
             }
         }
     }
 
     @Override
-    public void delete(String id) {
-        Connection connection = DBConnection.getConnection();
-        if(connection!=null){
+    public BenhAn findById(int ma_benh_an) {
+        Connection connection = BaseRepository.getConnection();
+        BenhAn benhAn = null;
+        if (connection != null) {
             try {
-                connection.setAutoCommit(false);
-                PreparedStatement xoaBenhAn = connection.prepareStatement(DELETE_BENH_AN);
-                PreparedStatement xoaBenhNhan = connection.prepareCall(DELETE_BENH_NHAN);
-                xoaBenhAn.setString(1,id);
-                xoaBenhNhan.setString(1,id);
-                xoaBenhAn.executeUpdate();
-                xoaBenhNhan.executeUpdate();
-                connection.commit();
-            } catch (SQLException throwables) {
-                try {
-                    connection.rollback();
-                } catch (SQLException e) {
-                    e.printStackTrace();
+                PreparedStatement preparedStatement = connection.prepareStatement(FIND_BY_ID);
+                preparedStatement.setInt(1, ma_benh_an);
+                ResultSet resultSet = preparedStatement.executeQuery();
+                while (resultSet.next()) {
+                    benhAn = new BenhAn();
+                    benhAn.setMa_benh_an(resultSet.getInt("ma_benh_an"));
+                    benhAn.setMa_benh_nhan(resultSet.getInt("ma_benh_nhan"));
+                    benhAn.setNgay_nhap_vien(resultSet.getString("ngay_nhap_vien"));
+                    benhAn.setNgay_ra_vien(resultSet.getString("ngay_ra_vien"));
+                    benhAn.setLy_do(resultSet.getString("ly_do"));
                 }
+            } catch (SQLException throwables) {
                 throwables.printStackTrace();
+            } finally {
+                try {
+                    connection.close();
+                } catch (SQLException throwables) {
+                    throwables.printStackTrace();
+                }
             }
         }
+        return benhAn;
     }
 }

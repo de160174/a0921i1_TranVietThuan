@@ -233,7 +233,6 @@
 <script src="/assert/jquery/jquery-3.6.0.min.js"></script>
 <script src="/assert/bootstrap-4.1.3-dist/js/popper.min.js"></script>
 <script src="/assert/js/jquery.dataTables.min.js"></script>
-<script src="/assert/js/dataTables.bootstrap4.min.js"></script>
 <script src="/assert/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
 <script src="/assert/bootstrap-4.1.3-dist/js/bootstrap.bundle.js"></script>
 <script>
