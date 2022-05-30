@@ -34,7 +34,7 @@ public class ProductController {
         return "/detail";
     }
 
-    @GetMapping("/  cart")
+    @GetMapping("/cart")
     public String showCart(@ModelAttribute("cart") Map<Product, Integer> cart, Model model, @RequestParam(defaultValue = "0") Integer id) {
         int amount = 0;
         Set<Product> keySet = cart.keySet();

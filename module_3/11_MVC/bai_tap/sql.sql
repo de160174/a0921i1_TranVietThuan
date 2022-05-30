@@ -1,4 +1,4 @@
-create database th_demo;
+attach_servicecreate database th_demo;
 use th_demo;
 create table users(
 	id int(3) not null auto_increment,
@@ -9,5 +9,5 @@ create table users(
 );
 insert into users(name,email,country) values('Minh','minh@codegym.vn','Viet Nam');
 insert into users(name, email, country) values('Kante','kante@che.uk','Kenia');
-select * from users
+select * from usersattach_serviceattach_serviceattach_serviceattach_serviceattach_serviceattach_servicecontract
 drop database th_demo;

@@ -30,7 +30,7 @@
             <th:block th:if="${product.key.id != id}">
                 <h5>
                     Quantity
-                    <th:block th:text="${product.getValue()}"></th:block>
+                    <th:block th:text="${product.getValue()}></th:block>
                     <a th:href="@{/cart(id=${product.getKey().getId()})}">Change</a>
                 </h5>
             </th:block>

@@ -22,12 +22,12 @@
                 </th:block>
             </select>
         </form>
-        <div class="blogs" th:each="bog : ${blogList}">
-            <h5>Thể loại: <span th:text="${bog.category.nameCategory}"></span></h5>
-            <h5 th:text="${bog.header}"></h5>
-            <p th:text="${bog.content}"></p>
+        <div class="blogs" th:each="blog : ${blogList}">
+            <h5>Thể loại: <span th:text="${blog.category.nameCategory}"></span></h5>
+            <h5 th:text="${blog.header}"></h5>
+            <p th:text="${blog.content}"></p>
             <p>
-                Ngày tạo <span th:text="${bog.date}"></span>
+                Ngày tạo <span th:text="${blog.date}"></span>
             </p>
             <hr>
         </div>
