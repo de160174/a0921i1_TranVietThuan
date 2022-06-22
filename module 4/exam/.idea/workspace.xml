@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0743baf9-7740-44ef-adb5-1a386bafbe82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/static/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_exam/src/main/java/com/example/exam/model/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_exam/src/main/java/com/example/exam/repository/DiscountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_exam/src/main/java/com/example/exam/service/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/controller/PromotionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/entity/Promotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/repositories/PromotionRepositories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/service/IPromotionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/service/PromotionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/validator/CheckDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/validator/DateValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/static/css/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/static/css/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/employee/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/employee/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/employee/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/fragment/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/fragment/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/fragment/js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/fragment/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/repositories/customer/ICustomerRepositories.java" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/repositories/customer/ICustomerRepositories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/static/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/static/css/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/employee/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/employee/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/fragment/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/fragment/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/loginPage.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2Abv2Xt29CUD00t7zIowKcVqDd7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0743baf9-7740-44ef-adb5-1a386bafbe82" name="Default Changelist" comment="" />
+      <created>1655290892916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655290892916</updated>
+      <workItem from="1655290897165" duration="107000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="149" key="FileChooserDialogImpl" timestamp="1655291001237">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="149" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1655291001237" />
+    <state x="209" y="69" key="new project wizard" timestamp="1655291002300">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="209" y="69" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1655291002300" />
+  </component>
+</project>

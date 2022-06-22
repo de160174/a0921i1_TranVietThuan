@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01fd7db8-20fb-4b58-967c-907da4feed9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/static/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/exam/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/exam/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/exam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/exam/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_exam/exam/src/main/java/com/example/exam/controller/DiscountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_exam/exam/src/main/java/com/example/exam/model/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_exam/exam/src/main/java/com/example/exam/repository/DiscountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_exam/exam/src/main/java/com/example/exam/service/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_exam/exam/src/main/java/com/example/exam/service/DiscountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_exam/src/main/java/com/example/exam/model/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_exam/src/main/java/com/example/exam/repository/DiscountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_exam/src/main/java/com/example/exam/service/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_exam/src/main/resources/static/assert/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/java/com/codegym/furama/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/java/com/codegym/furama/controller/PromotionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/java/com/codegym/furama/entity/Promotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/java/com/codegym/furama/repositories/PromotionRepositories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/java/com/codegym/furama/service/IPromotionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/java/com/codegym/furama/service/PromotionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/java/com/codegym/furama/validator/CheckDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/java/com/codegym/furama/validator/DateValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/static/css/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/static/css/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/templates/employee/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/templates/employee/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/templates/employee/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/templates/fragment/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/templates/fragment/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/templates/fragment/js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/templates/fragment/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module 4/final_module_4/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/casestudy/src/main/java/com/codegym/furama/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/casestudy/src/main/java/com/codegym/furama/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/casestudy/src/main/java/com/codegym/furama/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/casestudy/src/main/java/com/codegym/furama/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/casestudy/src/main/java/com/codegym/furama/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/casestudy/src/main/java/com/codegym/furama/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/casestudy/src/main/java/com/codegym/furama/repositories/customer/ICustomerRepositories.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/casestudy/src/main/java/com/codegym/furama/repositories/customer/ICustomerRepositories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/static/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/static/css/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/templates/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/templates/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/templates/employee/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/templates/employee/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/templates/fragment/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/templates/fragment/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/templates/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/casestudy/src/main/resources/templates/loginPage.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2Aq963HNoQp8hzf8nBrsLtXOdFg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="E:\codegym\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01fd7db8-20fb-4b58-967c-907da4feed9c" name="Default Changelist" comment="" />
+      <created>1655726070055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655726070055</updated>
+      <workItem from="1655726071149" duration="195000" />
+      <workItem from="1655726747717" duration="1528000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
