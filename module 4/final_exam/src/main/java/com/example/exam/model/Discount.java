@@ -1,88 +1,85 @@
-package com.codegym.exam.model;
-
-import org.springframework.format.annotation.DateTimeFormat;
+package com.example.exam.model;
 
 import javax.persistence.*;
-import javax.validation.constraints.*;
-import java.time.LocalDate;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 
 @Entity
 @Table(name = "discount")
 public class Discount {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "discount_id")
-    private Integer discountId;
+    private int id;
 
-    @NotBlank(message = "must be not empty!")
-    private String title;
+    @NotBlank(message = "Must be not empty")
+    private String name;
 
-    @NotNull(message = "must be not empty!")
-    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
-    @Future(message = "time must greater than current time")
-    @Column(name = "start_time")
-    private LocalDate startTime;
+    @Pattern(regexp = "^\\d{4}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01])$",
+            message = "Must be like: 2022-01-01")
+    private String startDate;
 
-    @NotNull(message = "must be not empty!")
-    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
-    @Column(name = "end_time")
-    private LocalDate endTime;
+    @Pattern(regexp = "^\\d{4}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01])$",
+            message = "Must be like: 2022-01-01")
+    private String endDate;
 
-    @Min(10000)
-    @Column(name = "dicount_amount")
-    private double discountAmount;
+    @NotNull
+    @Min(value=10000, message="must be equal or greater than 10000")
+    private double discount;
 
-    @NotBlank(message = "must be not empty!")
-    private String detail;
+    @NotBlank(message = "Must be not empty")
+    private String info;
 
     public Discount() {
     }
 
-    public Integer getDiscountId() {
-        return discountId;
+    public int getId() {
+        return id;
     }
 
-    public void setDiscountId(Integer discountId) {
-        this.discountId = discountId;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public LocalDate getStartTime() {
-        return startTime;
+    public String getStartDate() {
+        return startDate;
     }
 
-    public void setStartTime(LocalDate startTime) {
-        this.startTime = startTime;
+    public void setStartDate(String startDate) {
+        this.startDate = startDate;
     }
 
-    public LocalDate getEndTime() {
-        return endTime;
+    public String getEndDate() {
+        return endDate;
     }
 
-    public void setEndTime(LocalDate endTime) {
-        this.endTime = endTime;
+    public void setEndDate(String endDate) {
+        this.endDate = endDate;
     }
 
-    public double getDiscountAmount() {
-        return discountAmount;
+    public double getDiscount() {
+        return discount;
     }
 
-    public void setDiscountAmount(double discountAmount) {
-        this.discountAmount = discountAmount;
+    public void setDiscount(double discount) {
+        this.discount = discount;
     }
 
-    public String getDetail() {
-        return detail;
+    public String getInfo() {
+        return info;
     }
 
-    public void setDetail(String detail) {
-        this.detail = detail;
+    public void setInfo(String info) {
+        this.info = info;
     }
 }

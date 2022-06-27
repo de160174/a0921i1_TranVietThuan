@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../assert/css/furama.css">
+    <link rel="stylesheet" href="../assert/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<h1>Edit Discount</h1>
+<form th:action="@{/edit}" th:object="${discount}" method="post">
+    <input th:type="hidden" name="id" th:field="*{id}">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" th:field="*{name}" minlength="1" maxlength="50"/></td>
+            <td th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class="error">Name Error</td>
+        </tr>
+        <tr>
+            <td>Start date</td>
+            <td><input type="date" th:field="*{startDate}"/></td>
+            <td th:if="${#fields.hasErrors('startDate')}" th:errors="*{startDate}" class="error">Name
+                Error
+            </td>
+        </tr>
+        <tr>
+            <td>End date</td>
+            <td><input type="date" th:field="*{endDate}"/></td>
+            <td th:if="${#fields.hasErrors('endDate')}" th:errors="*{endDate}" class="error">Name
+                Error
+            </td>
+        </tr>
+        <tr>
+            <td>Discount</td>
+            <td><input type="number" th:field="*{discount}"/></td>
+            <td th:if="${#fields.hasErrors('discount')}" th:errors="*{discount}" class="error">Name Error
+            </td>
+        </tr>
+        <tr>
+            <td>Info</td>
+            <td><input type="text" th:field="*{info}" minlength="1" maxlength="50"/></td>
+            <td th:if="${#fields.hasErrors('info')}" th:errors="*{info}" class="error">Name Error</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Update" class="btn btn-primary"></td>
+        </tr>
+    </table>
+</form>
+<script src="../assert/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

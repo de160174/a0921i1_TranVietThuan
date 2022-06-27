@@ -11,7 +11,7 @@
 
     <!-- /login?error=true -->
     <div th:if="${#request.getParameter('error') == 'true'}"
-         style="color:red;margin:10px 0px;">
+         style="color:#ff0000;margin:10px 0px;">
         Login Failed!!!<br />
         Reason :
         <span th:if="${#session!= null and #session.getAttribute('SPRING_SECURITY_LAST_EXCEPTION') != null}"

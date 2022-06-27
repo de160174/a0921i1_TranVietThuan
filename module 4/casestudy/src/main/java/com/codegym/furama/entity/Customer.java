@@ -17,7 +17,7 @@ public class Customer {
     @NotBlank(message = "not blank")
     private String customerName;
 
-    @DateTimeFormat(pattern = "dd/mm/yyyy")
+    @DateTimeFormat(pattern = "dd/MM/yyyy")
     private String customerBirthday;
 
     @NotBlank(message = "not blank")
@@ -37,7 +37,7 @@ public class Customer {
     private String customerAddress;
 
     @ManyToOne
-    @JoinColumn(name = "customer_type_id")
+    @JoinColumn(name = "customerTypeId")
     private CustomerType customerType;
 
     @OneToMany(mappedBy = "customer",cascade = CascadeType.ALL)
