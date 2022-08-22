@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0743baf9-7740-44ef-adb5-1a386bafbe82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/static/js/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_exam/src/main/java/com/example/exam/model/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_exam/src/main/java/com/example/exam/repository/DiscountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_exam/src/main/java/com/example/exam/service/DiscountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/controller/PromotionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/entity/Promotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/repositories/PromotionRepositories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/service/IPromotionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/service/PromotionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/validator/CheckDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/java/com/codegym/furama/validator/DateValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/static/css/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/static/css/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/customer/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/customer/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/customer/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/employee/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/employee/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/employee/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/fragment/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/fragment/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/fragment/js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/fragment/sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final_module_4/src/main/resources/templates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/repositories/customer/ICustomerRepositories.java" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/java/com/codegym/furama/repositories/customer/ICustomerRepositories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/static/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/static/css/table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/customer/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/customer/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/employee/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/employee/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/fragment/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/fragment/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/src/main/resources/templates/loginPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/6. Angular Form/form_dang_ky/angular-register/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/6. Angular Form/form_dang_ky/angular-register/src/app/login/login.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +23,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../final_module_4" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="SvnConfiguration">
@@ -74,6 +37,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655290892916</updated>
       <workItem from="1655290897165" duration="107000" />
+      <workItem from="1660363680528" duration="16000" />
     </task>
     <servers />
   </component>
@@ -81,10 +45,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="149" key="FileChooserDialogImpl" timestamp="1655291001237">
+    <state x="549" y="149" key="FileChooserDialogImpl" timestamp="1660363695617">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="149" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1655291001237" />
+    <state x="549" y="149" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1660363695617" />
     <state x="209" y="69" key="new project wizard" timestamp="1655291002300">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

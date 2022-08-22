@@ -6,7 +6,7 @@
 <header th:replace="fragment/header"></header>
 <nav th:replace="fragment/sidebar"></nav>
 <main>
-    <h3>Sủa khuyến mãi</h3>
+    <h3>Sửa khuyến mãi</h3>
     <form th:action="@{/edit}" class="form" method="post" th:object="${promotion}">
         <input type="hidden" th:field="*{id}">
         <div class="input-box">
