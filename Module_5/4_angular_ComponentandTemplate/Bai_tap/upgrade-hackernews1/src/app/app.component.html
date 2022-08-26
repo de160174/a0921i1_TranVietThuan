@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<header>
+  <app-navbar></app-navbar>
+</header>
+<main>
+  <div class="container">
+    <form action="" class="my-2">
+      <div class="form-group">
+        <label>Title</label>
+        <input #title type="text" class="form-control" placeholder="title">
+      </div>
+      <div class="form-group">
+        <label>Url</label>
+        <input #url type="text" class="form-control" placeholder="url">
+      </div>
+      <button type="button" class="btn btn-primary" (click)="addArticle(title, url)">Add new</button>
+    </form>
+    <app-list-article [articleList]="articleList"></app-list-article>
+  </div>
+</main>
+</body>
+</html>
