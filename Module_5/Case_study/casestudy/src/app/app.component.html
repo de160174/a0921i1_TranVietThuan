@@ -1,51 +1,45 @@
-<div class=e2_3>
-  <div class="e2_4"></div>
-  <div class=e2_5>
-    <div class=e2_6>
-      <div class="e2_7"></div>
+<div class="container-fluid px-0" style="height: 100vh;">
+  <nav class="navbar navbar-expand-sm navbar-dark" style="height: 10%; background: #647d8b;">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Furama Đà Nẵng</a>
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Trang Chủ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Liên Hệ</a>
+      </li>
+
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Tuyển Dụng
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Link 1</a>
+          <a class="dropdown-item" href="#">Link 2</a>
+          <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="row mx-0" style="height: 90%">
+    <div class="col-2 px-0">
+      <div class="list-group h-100 border border-primary" style="border-radius: unset">
+        <a href="#" class="item-link list-group-item list-group-item-action" [routerLink]="['']">Home</a>
+        <a href="#" class="item-link list-group-item list-group-item-action" [routerLink]="['employee-list']">Quản Lý Nhân Viên</a>
+        <a href="#" class="item-link list-group-item list-group-item-action">Quản Lý Dịch Vụ</a>
+        <a href="#" class="item-link list-group-item list-group-item-action">Quản Lý Khách Hàng</a>
+        <a href="#" class="item-link list-group-item list-group-item-action">Quản Lý Hợp Đồng</a>
+        <a href="#" class="item-link list-group-item list-group-item-action">Quản Lý Hợp Đồng Chi Tiết</a>
+      </div>
     </div>
-  </div>
-  <div class=e2_8>
-    <div class="e2_9"></div>
-    <div class="e2_10"></div>
-    <div class="e2_11"></div>
-  </div>
-  <div class=e2_12>
-    <div class=e2_13>
-      <div class="e2_14"></div>
-      <div class="e2_16"></div><span  class="e2_18">est. 1964</span><span  class="e2_19">Nike, Inc.</span><span  class="e2_20">worldwide</span>
-      <div class=e2_21>
-        <div class="e2_22"></div>
-        <div class="e2_23"></div>
-      </div>
-      <div class="e2_24"></div><span  class="e2_25">the main goal was To
-replace the traditional real
-life prototyping process with
-fully-digital design development. </span>
-      <div class="e2_26"></div>
-      <div class=e2_27>
-        <div class="e2_28"></div>
-        <div class="e2_29"></div>
-        <div class="e2_30"></div>
-        <div class="e2_31"></div>
-        <div class="e2_32"></div>
-      </div><span  class="e2_33">nike
-digital
-edition</span>
-      <div class=e2_34>
-        <div class="e2_35"></div>
-        <div class="e2_36"></div><span  class="e2_37">contacts</span><span  class="e2_38">mindmap</span><span  class="e2_39">shop</span><span  class="e2_40">my collection</span>
-      </div>
-      <div class="e2_41"></div>
-      <div class="e2_42"></div>
-      <div class="e2_43"></div>
-      <div class=e2_44>
-        <div class="e2_45"></div><span  class="e2_46">just do it</span>
-        <div class="e2_47"></div><span  class="e2_48">nike</span>
-        <div class="e2_49"></div><span  class="e2_50">just do it</span>
-        <div class="e2_51"></div>
-      </div>
-      <div class="e2_52"></div>
+
+    <div class="col-10 p-5">
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>
