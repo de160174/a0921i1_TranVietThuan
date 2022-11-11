@@ -1,0 +1,231 @@
+<div class="body">
+<!--  <div class="container pt-16">-->
+<!--    <marquee behavior="" direction="">-->
+<!--      Hé lô my friend <span class="color-blue fw-bold">{{user?.name.toUpperCase()}}</span>-->
+<!--    </marquee>-->
+<!--  </div>-->
+
+  <div class="container content-body">
+    <div>
+      <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row p-5">
+                <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                  <img class="img-fluid" src="./assets/image/dacnhantam.png" alt="">
+                </div>
+                <div class="col-lg-6 mb-0 d-flex align-items-center">
+                  <div class="text-align-left align-self-center">
+                    <h1 class="h1 text-success">Đắc nhân tâm</h1>
+                    <h3 class="h2">Cuốn sách bán chạy nhất mọi thời đại</h3>
+                    <p>
+                      Đã bao giờ bạn tự hỏi mình đã thật sự làm tốt bản thân trong những công cuộc ứng xử đời thường chưa?
+                      Hãy cùng giải đáp vấn đề này nhé! <a rel="sponsored" class="text-success" href="https://templatemo.com"
+                                                           target="_blank">Sản phẩm</a> phân phối độc quyền tại
+                      <a rel="sponsored" class="text-success" href="https://icons8.com/" target="_blank">Beeway</a>.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- mid Banner Hero -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row p-5">
+                <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                  <img class="img-fluid" src="./assets/image/selfhelp.png" alt="">
+                </div>
+                <div class="col-lg-6 mb-0 d-flex align-items-center">
+                  <div class="text-align-left">
+                    <h1 class="h1 text-success">Self Help</h1>
+                    <h3 class="h2">Self Help, nơi cuộc sống tái hiện</h3>
+                    <p>
+                      Giữa cuộc sống xô bồ hiện nay, khi mà người ta đã chai sạn dần với cảm xúc thì việc ai đó có thể thấu
+                      hiểu và đồng cảm với mình quả là một điều quý giá vô cùng.
+                      Có khi đơn giản, người bạn ấy chỉ là những <strong>cuốn sách</strong> bạn đang cầm trên tay.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- mid Banner Hero -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row p-5">
+                <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                  <img class="img-fluid" src="./assets/image/combo-1.png" alt="">
+                </div>
+                <div class="col-lg-6 mb-0 d-flex align-items-center">
+                  <div class="text-align-left">
+                    <h1 class="h1 text-success">Book and Rich</h1>
+                    <h3 class="h2">Tiền từ sách</h3>
+                    <p>
+                      Cần biết rằng, đa số người giàu dành ít nhất 30 phút mỗi ngày để đọc sách. Nếu sách vở giúp ích cho
+                      người giàu đến vậy, nó cũng sẽ giúp ích cho bạn.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button"
+           data-bs-slide="prev">
+          <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button"
+           data-bs-slide="next">
+          <i class="fas fa-chevron-right"></i>
+        </a>
+      </div>
+      <!-- End Banner Hero -->
+    </div>
+
+
+  </div>
+</div>
+
+<!-- Start Featured Product -->
+<section class="bg-light">
+  <div class="container py-5">
+    <div class="row text-center py-3">
+      <div class="col-lg-6 m-auto">
+        <h1 class="h1">Danh mục sản phẩm</h1>
+      </div>
+    </div>
+
+    <div class="row highlight" >
+      <div class="col-12 col-md-4 mb-4"  *ngFor="let category of categories" (click)="search(category.name)">
+        <div class="card h-100">
+            <img [src]="category?.imageUrl" class="card-img-top" alt="...">
+          <div class="card-body">
+            <ul class="list-unstyled d-flex justify-content-between">
+              <li>
+                <i class="text-warning fa fa-star"></i>
+                <i class="text-warning fa fa-star"></i>
+                <i class="text-warning fa fa-star"></i>
+                <i class="text-muted fa fa-star"></i>
+                <i class="text-muted fa fa-star"></i>
+              </li>
+            </ul>
+            <h2 class="h2 text-decoration-none text-dark"> {{category.name}}</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Featured Product -->
+
+
+<!--<div class="component">-->
+<!--      <div class="row category-title">-->
+<!--        <i class="bi bi-grid-3x3-gap category-icon"></i>-->
+<!--        Danh mục sản phẩm-->
+<!--      </div>-->
+<!--      <div class="row">-->
+<!--        {{imageUrl}}-->
+<!--      </div>-->
+<!--      <div class="row">-->
+<!--        <div class="col-1-2 m-3" *ngFor="let category of categories">-->
+<!--          <div class="category-item" (click)="search(category.name)">-->
+<!--            <img [src]="category?.imageUrl" alt="Image error" class="category-item-image">-->
+<!--            <p class="category-item-name">{{category.name}}</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="row">-->
+<!--        <div class="col-1-2 m-3" *ngFor="let category of categories">-->
+<!--          <div class="category-item" (click)="search(category.name)">-->
+<!--            <img [src]="category?.imageUrl" alt="Image error" class="category-item-image">-->
+<!--            <p class="category-item-name">{{category.name}}</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
+    <div id="list" class="component">
+      <div class="row text-center py-3">
+        <div class="col-lg-6 m-auto">
+          <h1 class="h1">Sản phẩm nổi bật</h1>
+        </div>
+      </div>
+      <div class="row">
+
+<!--        <div class="col-2" *ngFor="let book of books">-->
+<!--          <div class="product-item-wrapper" [routerLink]="['/detail', book.id]">-->
+<!--            <img [src]="book.avatar" alt="" class="product-image">-->
+<!--            <div class="product-name">-->
+<!--              {{book.name}}-->
+<!--            </div>-->
+<!--            <div class="product-rate">-->
+<!--              <span *ngFor="let i of numberRatings">-->
+<!--                <i class="bi bi-star-fill icon-star-fill" *ngIf="i <= book.numberRating"></i>-->
+<!--                <i class="bi bi-star-fill icon-star-no-fill" *ngIf="i > book.numberRating"></i>-->
+<!--              </span>-->
+<!--            </div>-->
+<!--            <div class="product-price">-->
+<!--              {{book.price | currency: 'VND'}}-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+        <div *ngFor="let book of books" class="col-md-3">
+
+          <div class="card mb-4 product-wap rounded-0" >
+            <div class="card rounded-0">
+              <!--              background-->
+              <img class="card-img rounded-0 img-fluid" style="" [src]="book.avatar">
+
+              <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="btn btn-success text-white mt-2" [routerLink]="['/detail', book.id]">
+                      <i class="far fa-eye"></i></a>
+                  </li>
+                  <li>
+                    <button class="btn btn-success text-white mt-2" (click)="addToCart(book.id)" >
+                      <i class="fas fa-cart-plus"></i></button>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+            <div class="card-body">
+              <a [routerLink]="['/detail', book.id]" class="h3 text-decoration-none">{{book.name}}</a>
+              <br>Tác giả:
+              <a class="text-center mb-0"> {{book.author}}</a>
+              <br>Thể loại:
+              <a class="text-center mb-0"> {{book.category.name}}</a>
+              <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+<!--                <li class="pt-2">-->
+<!--                  <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>-->
+<!--                  <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>-->
+<!--                  <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>-->
+<!--                  <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>-->
+<!--                  <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>-->
+<!--                </li>-->
+              </ul>
+              <ul class="list-unstyled d-flex justify-content-center mb-1">
+                <li *ngFor="let i of numberRatings">
+                  <i class="text-warning fa fa-star"></i>
+                </li>
+              </ul>
+              <p class="text-center mb-0">{{book.price | currency: 'VND'}}</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row btn-view-more-wrapper">
+        <button class="btn btn-view-more" (click)="viewMore()">Xem thêm</button>
+      </div>
+    </div>
